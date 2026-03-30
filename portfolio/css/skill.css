@@ -1,0 +1,220 @@
+#skillbg{
+    background-image: url(../img/c13.png);
+    height: 720px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skill1{
+   position: relative;
+   top: 200px;
+   text-align: center;
+   color: #000;
+   font-size: 35px;
+}
+.skill2{
+    margin-top: 230px;
+    margin-left: 390px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.logo{
+   
+    border-radius: 100px;
+    margin-left: 480px;
+    margin-top: -90px; 
+}
+#skill3{
+   
+    background-color: black;
+    height: 600px;
+    width: 100%;
+     margin-top: -20px;
+}
+
+.titile1{
+    text-align: center;
+   position: relative;
+   top: 30px;
+   text-transform: uppercase;
+
+}
+#skills{
+    height: 450px;
+    width: 400px;
+    border: 2px solid rgb(19, 19, 18);
+    box-shadow: 5px 5px 30px 2px rgb(87, 86, 86);
+    margin-top: 60px;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+.top1{
+    text-align: center;
+    margin-top: 30px;
+   color: #fff8f8;
+    letter-spacing: 2px;
+}
+
+
+
+.skill{
+margin:20px 0;
+margin-left: 30px;
+color: goldenrod;
+}
+
+
+.progress{
+width:90%;
+height:15px;
+background:#222;
+border-radius:20px;
+overflow:hidden;
+}
+
+.progress-bar{
+height:100%;
+background:linear-gradient(90deg,#3d044c,#b403e0,#f596ff,#9f5fa6);
+width:0;
+}
+
+
+.html{
+animation:html 5s forwards;
+}
+
+.css{
+animation:css 5s forwards;
+}
+
+.js{
+animation:js 5s forwards;
+}
+
+.java{
+animation:python 5s forwards;
+}
+.bootstrap{
+animation:python 5s forwards;
+}
+.sql{
+animation:python 5s forwards;
+}
+@keyframes html{
+from{width:0;}
+to{width:97%;}
+}
+
+@keyframes css{
+from{width:0;}
+to{width:90%;}
+}
+
+@keyframes js{
+from{width:0;}
+to{width:60%;}
+}
+
+
+.bootstrap{
+animation:bootstrap 5s forwards;
+}
+
+.sql{
+animation:sql 5s forwards;
+}
+
+.java{
+animation:java 5s forwards;
+}
+
+@keyframes bootstrap{
+from{width:0;}
+to{width:90%;}
+}
+
+@keyframes sql{
+from{width:0;}
+to{width:95%;}
+}
+
+@keyframes java{
+from{width:0;}
+to{width:90%;}
+}
+
+.skills1{
+    height: 450px;
+    width: 400px;
+    
+  position: absolute;
+   border: 2px solid rgb(19, 19, 18);
+    box-shadow: 5px 5px 30px 2px rgb(87, 86, 86);
+  top: 800px;
+    margin-left: 800px;
+    border-radius: 20px;
+}
+.top2{
+    text-align: center;
+    margin-top: 30px;
+   color: #fff8f8;
+    letter-spacing: 2px;
+}
+
+
+.img1{
+    height: 30px;
+    width: 50px;
+   
+  position: absolute;
+  left: 260px;
+  top: 85px;
+}
+.ptool{
+    margin-top: 30px;
+    margin-left: 60px;
+    color: goldenrod;
+}
+
+.img2{
+    height: 30px;
+    width: 50px;
+   
+  position: absolute;
+  left: 260px;
+  top: 150px;
+}
+
+
+.img3{
+    height: 50px;
+    width: 50px;
+   
+  position: absolute;
+  left: 260px;
+  top: 210px;
+}
+
+
+.img4{
+    height: 40px;
+    width: 50px;
+   
+  position: absolute;
+  left: 260px;
+  top: 270px;
+}
+
+
+.img5{
+    height: 40px;
+    width: 50px;
+   
+  position: absolute;
+  left: 260px;
+  top: 350px;
+}
+

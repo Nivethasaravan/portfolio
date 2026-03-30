@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean Haven</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styl.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <style>
+
+#container{
+    background-color: #000;
+}
+   
+#coverpage{
+    background-image: url(../img/ChatGPT\ Image\ Feb\ 24\,\ 2026\,\ 09_59_47\ PM\ -\ Copy.png);
+     background-repeat: no-repeat;
+   background-size: cover; 
+   height: 700px;
+   
+
+  
+
+}
+
+/* coverpage */
+/* #coverpage{
+    
+     
+   width: 450px;
+     margin-left: 140px;
+    margin-right: 100px;  
+    border-radius: 20px;
+    
+   
+} */
+
+#cover1{
+    font-weight: bolder;
+   font-size: 60px;
+   margin-top: 70px;
+   margin-left: 100px;
+   padding: 30px;
+}
+#cover2{
+    margin-top: 20px;
+    font-size: medium;
+     margin-left: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cover3{
+    color: #faf3f3;
+    padding: 10px;
+    background-color: rgb(51, 30, 30);
+    margin-top: 30px;
+     margin-left: 130px;
+    width: 150px;
+
+}
+#cover4{
+ color: #ebe6e6;
+ background-color: #030303;
+  background-color: rgb(51, 30, 30);
+    padding: 10px;
+    margin-top: 30px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+#cover3:hover{
+    cursor: pointer;
+   background-color: rgb(252, 252, 252);
+    color: rgb(7, 7, 7);
+  
+}
+#cover4:hover{
+    cursor: pointer;
+   background-color: #efecec;
+    color: rgb(0, 0, 0);
+  
+}
+#cover5{
+    margin-top: 30px;
+    margin-left: 130px;
+    font-weight: bold;
+    font-size:x-large;
+}
+#cover6{
+    margin-top: 10px;
+    font-size: medium;
+    margin-left: 130px;
+}
+#cover7{
+   position: absolute;
+   top: 550px;
+   left: 310px;
+   font-size: medium;
+  
+    
+}
+#cover8{
+   position: absolute;
+   top: 550px;
+   left: 480px;
+   font-size: medium;   
+}
+#box2{
+    height: 500px;
+    width: 1522px;
+    border: 1px solid black;
+    background-color:#3A231D;
+    color: #faf7f7;
+}
+#box2>#img1>#sub{
+    height:400px;
+    width: 670px;
+    margin-top: 60px;
+   margin-left: 60px;
+
+ 
+   border: 10px outset rgb(182, 174, 174);
+    
+}
+#sub0{
+    position: absolute;
+    left: 800px;
+    top: 1470px;
+    color: #f1eeee;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+#sub1{
+    position: absolute;
+    left: 830px;
+    top: 1500px;
+    color: #fdf4f4;
+    font-size: 40px;
+    
+}
+#sub2{
+     position: absolute;
+    left: 830px;
+    top: 1620px;
+    color: #e4dfdf;
+
+}
+#sub3{
+    position: absolute;
+    left: 830px;
+    top: 1770px;
+    color: #f7f2f2;
+    height: 40px;
+    width: 140px;
+    padding: 5px;
+    background-color: #000;
+
+}
+
+#box1{
+   height: 600px;
+    width: 1522px;
+    border: 1px solid black;
+     background-color:#EDE3D4;
+
+}
+#card1{
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+  
+}
+
+#body{
+    
+  height: 340px;
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+#gallery{
+   width: 90%;
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 40px 0;
+
+}
+#gallery::-webkit-scrollbar{
+      display: none;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  background: #493030;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  scroll-snap-align: center;
+  transition: 0.3s;
+   
+}
+
+.card:hover {
+  transform: scale(1.1);
+ 
+}
+.card>#card1{
+    width: 300px;
+    margin-top: 3px;
+    height: 320px;
+    border-radius: 10px;
+}
+.card>#card11{
+  margin-top: 350px;
+    position: absolute;
+    
+    font-size: 25px;
+   text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#card12{
+ position: absolute;
+ top: 1200px;
+ font-size: 13px;
+ text-align: center; 
+    
+}
+#card2{
+    margin-top: 230px;
+    position: absolute;
+    left: 710px;
+    justify-content: center;
+    background-color: #5e5957;
+    color: #dfdbdb;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+   
+}
+#card2:hover{
+    cursor: pointer;
+  
+    background-color: #eab3b3;
+    color: #000;
+}
+
+
+ </style>
+  
+</head>
+
+<body  >
+  
+    <div id="parent" >
+        
+        <img src="../img/WhatsApp Image 2026-02-24 at 9.56.56 AM.jpeg" alt="" id="logo"> 
+        <nav>
+            <ul>
+            <li> <a href="../html/index.html">  Home</a> </li>
+              <li> <a href="../html/menu.html">Menu</a></li>
+                <li> <a href="../html/about.html">About </a> </li>
+              <li> <a href="../html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+         <a href="../html/login.html"> <button id="login" style="color: #0a0a0a;">Login  <i style="color: #0a0a0a;" class="fa-solid fa-right-from-bracket"></i></button></a>
+    </div>
+
+    <div id="coverpage">
+        <h1 id="cover1" >Discover The <br> Art Of Perfect  <br> Coffee</h1>
+        <p id="cover2">Experience The Rich And Bold Flavors Of Our <br> Exquisite Coffee Blends, Crafted To Awaken Your <br> Senses And Start Your Day Right </p>
+       <a href="../html/menu.html"> <button id="cover3">Order Now <i style="color: #f7f6f6;"class="fa-solid fa-arrow-right"></i></button></a>
+       <a href="../html/menu.html"> <button id="cover4">Explore More  </i></button></a>
+       <p id="cover5"> 50+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;20+ &emsp;&emsp;&emsp;&emsp;&emsp;2K+</p>
+       <p id="cover6">Item of coffee </p>
+       <p id="cover7"> Order Running</p>
+        <p id="cover8"> Happy Customer</p>
+         
+</div> 
+
+
+  <div id="box1">
+    <p id="card1">Signature Coffees  - Get <i style="color: #ff0000;">Coffee</i> Now</p>
+   <div id="body">
+    <div id="gallery">
+     <div class="card">
+        <img src="../img/Starbucks Iced Americano Recipe That Tastes Like the Real Deal.jpeg" alt="" id="card1">
+        <p id="card11">Americano </p>
+       
+     </div>
+    <div class="card">
+        <img src="../img/Cold Brew Coffee_ With optional house-made syrups_.jpeg" alt="" id="card1">
+        <p id="card11">Cold Brew</p>
+      
+    </div>
+    <div class="card">
+        <img src="../img/Coffee Art Inspiration - Imagine_ Coffee Art Home Decor Ideas.jpeg" alt="" id="card1">
+        <p id="card11">Cappuccino</p>
+       
+    </div>
+    <div class="card">
+        <img src="../img/mocha.jpeg" alt="" id="card1">
+        <p id="card11">Mocha Chocolate</p>  
+    </div>
+   </div>
+    <a href="../html/menu.html"><button id="card2">Order Now</button></a>
+   </div>
+  </div>
+
+
+
+    <div id="box2">
+      <div id="img1">
+          <img src="../img/Coffee still life with a cup, coffee grinder and grains by Алексей Лукин _ 500px.jpeg" alt="" id="sub">
+          <p id="sub0">OUR STORY</p>
+          <h1 id="sub1">From Bean to Cup: <br> " A  <i style="color: #f3efef;">Journey</i> Built on Craft "</h1>
+          <p id="sub2">Bean Haven was created with one simple obsession  quality without compromise. <br> 
+              <br>We don’t treat coffee as a product. We treat it as a craft. 
+What started as a small idea  <br>to serve better coffee quickly  turned into a commitment to source responsibly grown beans, <br> roast them with precision, and serve every cup  at peak freshness. Every batch is <br>carefully selected from trusted farms that prioritize sustainability and ethical practices.</p>
+       <a href="../html/about.html"><button id="sub3">Read full Story <i style="color: #f6f0f0;"class="fa-solid fa-arrow-right"></i></button></a>
+      </div>
+    </div>
+
+
+    <div id="fotter">
+
+      
+      <div id="f1">
+        <h2 style="font-weight: bold; font-family: 'Courier New', Courier, monospace;" id="fot1">Bean Haven</h2>
+            <img src="../img/WhatsApp Image 2026-02-24 at 9.56.56 AM.jpeg" alt="" id="fot2">
+            <p id="fot3" >Crafting moments of joy, one cup at a time.
+Experience the true essence of premium coffee.</p>
+       <i class="fa-brands fa-instagram" id="fot4"></i><i class="fa-brands fa-facebook-f" id="fot5"></i><i id="fot6" class="fa-brands fa-twitter" style="color: #000;"></i>
+      </div>
+
+        <div id="f2">
+            <h2 id="fot7">Quick Links</h2>
+             <ul id="fot8">
+                <a href="./INDEX.HTML" > <li   class="h1">Home</li></a> <br> 
+               <a href="./menu.html"  ><li class="h1">Menu</li></a> <br> 
+                 <a href="./about.html" ><li class="h1" >About</li></a> <br> 
+                 <a href="./contact.html" ><li class="h1">Contact</li></a>
+            </ul>
+        </div>
+
+        <div id="f3">
+            <p id="fot9">
+                 Contact Us <br>  
+            </p>
+<ul id="fot10">
+     
+    <li class="class"><i class="fa-solid fa-location-arrow" style="color: #2a1515;"></i> 123 Brew Street, Anna Nagar
+Chennai,     &emsp; &emsp;  Tamil Nadu – 600040</li> <br>
+    <li class="class"><i class="fa-solid fa-phone" style="color: #341a1a;"></i> +91 98765 43210</li> <br>
+    <li class="class"><i class="fa-regular fa-envelope" style="color: #341a1a; font-weight: bolder;" ></i> hello@beanhaven.com</li> <br>
+     <li class="class"><i class="fa-regular fa-clock"style="color: #341a1a;  font-weight: bolder; " ></i>  Mon – Sun: 8:00 AM – 9:00 PM</li>
+</ul>
+        </div>
+
+        <div id="f4">
+            <p id="fot11">Newsletter Section</p>
+            <p id="fot12">Stay Updated <br> <br>
+Get exclusive offers, new coffee launches, and event updates.</p>
+ <input type="email" placeholder="ENTER YOUR EMAIL" id="fot13"> <br>
+ <button  id="fot14"> Subscribe</button>
+        </div>
+    </div>
+ <div id="bottom">
+ 
+    <p id="copy">© 2026 Bean Haven. All rights reserved.</p>
+ </div>
+</body>
+</html>
